@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[start test on start]]>
+    </line>
+    <line>
+      <![CDATA[start test]]>
+    </line>
+    <line>
+      <![CDATA[start successful]]>
+    </line>
+    <line>
+      <![CDATA[start test]]>
+    </line>
+    <line>
+      <![CDATA[start successful]]>
+    </line>
+    <line>
+      <![CDATA[start test]]>
+    </line>
+    <line>
+      <![CDATA[start successful]]>
+    </line>
+    <line>
+      <![CDATA[start test]]>
+    </line>
+    <line>
+      <![CDATA[start successful]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-08-21T14:41:13 IST" name="Default suite" finished-at="2022-08-21T14:41:25 IST" duration-ms="12078">
+    <groups>
+      <group name="regression">
+        <method signature="gruops.verifyingUpperIconGlosary()[pri:3, instance:IncludeExclude.gruops@a530d0a]" name="verifyingUpperIconGlosary" class="IncludeExclude.gruops"/>
+        <method signature="gruops.verifyingUpperIconTopOffer()[pri:4, instance:IncludeExclude.gruops@a530d0a]" name="verifyingUpperIconTopOffer" class="IncludeExclude.gruops"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="gruops.verifyUrlOfPge()[pri:1, instance:IncludeExclude.gruops@a530d0a]" name="verifyUrlOfPge" class="IncludeExclude.gruops"/>
+        <method signature="gruops.verifyingTitleOfPage()[pri:2, instance:IncludeExclude.gruops@a530d0a]" name="verifyingTitleOfPage" class="IncludeExclude.gruops"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2022-08-21T14:41:13 IST" name="Default test" finished-at="2022-08-21T14:41:25 IST" duration-ms="12078">
+      <class name="IncludeExclude.gruops">
+        <test-method is-config="true" signature="BrowserLunch()[pri:0, instance:IncludeExclude.gruops@a530d0a]" started-at="2022-08-21T14:41:13 IST" name="BrowserLunch" finished-at="2022-08-21T14:41:24 IST" duration-ms="10980" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserLunch -->
+        <test-method signature="verifyUrlOfPge()[pri:1, instance:IncludeExclude.gruops@a530d0a]" started-at="2022-08-21T14:41:24 IST" name="verifyUrlOfPge" finished-at="2022-08-21T14:41:24 IST" duration-ms="37" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[start test]]>
+            </line>
+            <line>
+              <![CDATA[start successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyUrlOfPge -->
+        <test-method signature="verifyingTitleOfPage()[pri:2, instance:IncludeExclude.gruops@a530d0a]" started-at="2022-08-21T14:41:24 IST" name="verifyingTitleOfPage" finished-at="2022-08-21T14:41:24 IST" duration-ms="68" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[start test]]>
+            </line>
+            <line>
+              <![CDATA[start successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyingTitleOfPage -->
+        <test-method signature="verifyingUpperIconGlosary()[pri:3, instance:IncludeExclude.gruops@a530d0a]" started-at="2022-08-21T14:41:24 IST" name="verifyingUpperIconGlosary" finished-at="2022-08-21T14:41:24 IST" duration-ms="157" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[start test]]>
+            </line>
+            <line>
+              <![CDATA[start successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyingUpperIconGlosary -->
+        <test-method signature="verifyingUpperIconTopOffer()[pri:4, instance:IncludeExclude.gruops@a530d0a]" started-at="2022-08-21T14:41:24 IST" name="verifyingUpperIconTopOffer" finished-at="2022-08-21T14:41:25 IST" duration-ms="57" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[start test]]>
+            </line>
+            <line>
+              <![CDATA[start successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyingUpperIconTopOffer -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:IncludeExclude.gruops@a530d0a]" started-at="2022-08-21T14:41:25 IST" name="tearDown" finished-at="2022-08-21T14:41:25 IST" duration-ms="714" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- IncludeExclude.gruops -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

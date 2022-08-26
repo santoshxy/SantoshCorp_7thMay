@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="methods" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="methods" name="Test(failed)">
+    <classes>
+      <class name="SequenceOfTestCasese.ChekingTestCaseSequence">
+        <methods>
+          <include name="atestcase2"/>
+        </methods>
+      </class> <!-- SequenceOfTestCasese.ChekingTestCaseSequence -->
+      <class name="IncludeExclude.Checking">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifyingTitleOfPage"/>
+          <include name="BrowserLunch"/>
+        </methods>
+      </class> <!-- IncludeExclude.Checking -->
+      <class name="IncludeExclude.gruops">
+        <methods>
+          <include name="verifyingTitleOfPage"/>
+          <include name="BrowserLunch"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- IncludeExclude.gruops -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
